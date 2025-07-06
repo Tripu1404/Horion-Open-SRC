@@ -1,7 +1,7 @@
 #pragma once
 //#include "../../../../Utils/TargetUtil.h"
 #include "../ModuleManager.h"
-#include "../Module.h"
+#include "../ModuleManager.h"
 
 class Killaura : public IModule {
 private:
@@ -21,7 +21,7 @@ public:
 
     vec2_t tro;
 
-    std::string name = "Killaura";
+    std::string name = "Aura";
     SettingEnum rotations = this;
     SettingEnum mode = this;
     SettingEnum AutoWeapon = this;
